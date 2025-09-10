@@ -51,19 +51,19 @@ Each program requires specific inputs and produces a detailed output of the oper
 
   * **Inputs:** Multiplicand, Multiplier, and Bit-size.
   * **Outputs:** A step-by-step breakdown of the shift/add operations and the final product.
-  * **Example Output:** A console screenshot showing the step-by-step process of multiplying two numbers, with columns for the Multiplicand, Multiplier, and the Accumulator, and a final calculated product.
+  * **Example Output:** ![Sequential Multiplication Output](./Output/SequentialMultiplication_output.png)
 
 ### 2\. Restoring Division
 
   * **Inputs:** Dividend and Divisor.
   * **Outputs:** A detailed, step-by-step log of the restoring division process, along with the final quotient and remainder.
-  * **Example Output:** A console screenshot displaying the iterative process of restoring division, with steps showing left shifts, subtractions, and the restoration of the accumulator when the result is negative.
+  * **Example Output:** ![Restoring Division Output](./Output/RestoringDivision_output.png)
 
 ### 3\. Non-Restoring Division
 
   * **Inputs:** Dividend and Divisor.
   * **Outputs:** A detailed, step-by-step log of the non-restoring division process, along with the final quotient and remainder.
-  * **Example Output:** A console screenshot illustrating the non-restoring division algorithm, highlighting the different operations (subtraction or addition) based on the sign of the accumulator.
+  * **Example Output:** ![Non-Restoring Division Output](./Output/NonRestoringDivision_output.jpeg)
 
 -----
 
