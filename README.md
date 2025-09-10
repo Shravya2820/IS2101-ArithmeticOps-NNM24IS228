@@ -61,7 +61,7 @@ Each program requires specific inputs and produces a detailed output of the oper
 
   * **Inputs:** Dividend and Divisor.
   * **Output:**
-  * ![Non-Restoring Division Output](./Output/NonRestoringDivision_output.jpeg)
+    ![Non-Restoring Division Output](./Output/NonRestoringDivision_output.jpeg)
 
 -----
 
