@@ -50,20 +50,17 @@ Each program requires specific inputs and produces a detailed output of the oper
 ### 1\. Sequential Multiplication
 
   * **Inputs:** Multiplicand, Multiplier, and Bit-size.
-  * **Outputs:** A step-by-step breakdown of the shift/add operations and the final product.
-  * **Example Output:** ![Sequential Multiplication Output](./Output/SequentialMultiplication_output.png)
+  * **Outputs:**![Sequential Multiplication Output](./Output/SequentialMultiplication_output.png)
 
 ### 2\. Restoring Division
 
   * **Inputs:** Dividend and Divisor.
-  * **Outputs:** A detailed, step-by-step log of the restoring division process, along with the final quotient and remainder.
-  * **Example Output:** ![Restoring Division Output](./Output/RestoringDivision_output.png)
+  * **Outputs:**![Restoring Division Output](./Output/RestoringDivision_output.png)
 
 ### 3\. Non-Restoring Division
 
   * **Inputs:** Dividend and Divisor.
-  * **Outputs:** A detailed, step-by-step log of the non-restoring division process, along with the final quotient and remainder.
-  * **Example Output:** ![Non-Restoring Division Output](./Output/NonRestoringDivision_output.jpeg)
+  * **Outputs:**![Non-Restoring Division Output](./Output/NonRestoringDivision_output.jpeg)
 
 -----
 
