@@ -1,17 +1,14 @@
 # IS2101 - Arithmetic Operations in C
 
-This project contains three C programs implementing fundamental arithmetic algorithms:
+This project contains three C programs that implement fundamental binary arithmetic algorithms: **Sequential Multiplication**, **Restoring Division**, and **Non-Restoring Division**. Each program demonstrates the step-by-step process of these operations, providing a clear visual representation of how they work at a low level.
 
-1. **Sequential Multiplication** (`a_Sequential_Multiplication.c`)
-2. **Restoring Division** (`b_Restoring_Division.c`)
-3. **Non-Restoring Division** (`c_NonRestoring_Division.c`)
-
-Each program demonstrates step-by-step binary arithmetic operations.
-
----
+-----
 
 ## 📂 Folder Structure
 
+The repository has the following file and folder structure:
+
+```
 IS2101-ArithmeticOps-NNM24IS228/
 │── a_Sequential_Multiplication.c
 │── b_Restoring_Division.c
@@ -19,62 +16,61 @@ IS2101-ArithmeticOps-NNM24IS228/
 │── Output/
 │ ├── SequentialMultiplication_output.png
 │ ├── RestoringDivision_output.png
-│ ├── NonRestoringDivision_output.jpeg
+│ └── NonRestoringDivision_output.jpeg
 │── README.md
+```
 
----
+-----
 
 ## ⚙️ Compilation & Execution
 
-Use GCC to compile the programs.
+To compile and run the programs, you'll need a C compiler like GCC. You can use the following commands in your terminal.
 
-### 1. Sequential Multiplication
-```bash
-gcc a_Sequential_Multiplication.c -o a_Sequential_Multiplication.exe
-.\a_Sequential_Multiplication.exe
+### 1\. Sequential Multiplication
 
-2. Restoring Division
-gcc c_NonRestoring_Division.c -o c_NonRestoring_Division.exe
-.\c_NonRestoring_Division.exe
+  * **Compile:** `gcc a_Sequential_Multiplication.c -o a_Sequential_Multiplication.exe`
+  * **Execute:** `.\a_Sequential_Multiplication.exe`
 
-3. Non Restoring Division
-gcc c_NonRestoring_Division.c -o c_NonRestoring_Division.exe
-.\c_NonRestoring_Division.exe
+### 2\. Restoring Division
 
-📥 Inputs & 📤 Outputs
-1. Sequential Multiplication
+  * **Compile:** `gcc b_Restoring_Division.c -o b_Restoring_Division.exe`
+  * **Execute:** `.\b_Restoring_Division.exe`
 
-Inputs: Multiplicand, Multiplier, Bit-size
+### 3\. Non-Restoring Division
 
-Outputs: Step-by-step shift/add operations and final product
-📸 Example:
-![Sequential Multiplication Output](./Output/SequentialMultiplication_output.png)
+  * **Compile:** `gcc c_NonRestoring_Division.c -o c_NonRestoring_Division.exe`
+  * **Execute:** `.\c_NonRestoring_Division.exe`
 
+-----
 
+## 📥 Inputs & 📤 Outputs
 
-2. Restoring Division
+Each program requires specific inputs and produces a detailed output of the operation.
 
-Inputs: Dividend, Divisor
+### 1\. Sequential Multiplication
 
-Outputs: Step-by-step restoring division process, Quotient, Remainder
+  * **Inputs:** Multiplicand, Multiplier, and Bit-size.
+  * **Outputs:** A step-by-step breakdown of the shift/add operations and the final product.
+  * **Example Output:** A console screenshot showing the step-by-step process of multiplying two numbers, with columns for the Multiplicand, Multiplier, and the Accumulator, and a final calculated product.
 
-📸 Example:
-![Restoring Division Output](./Output/RestoringDivision_output.png)
+### 2\. Restoring Division
 
+  * **Inputs:** Dividend and Divisor.
+  * **Outputs:** A detailed, step-by-step log of the restoring division process, along with the final quotient and remainder.
+  * **Example Output:** A console screenshot displaying the iterative process of restoring division, with steps showing left shifts, subtractions, and the restoration of the accumulator when the result is negative.
 
-3. Non-Restoring Division
+### 3\. Non-Restoring Division
 
-Inputs: Dividend, Divisor
+  * **Inputs:** Dividend and Divisor.
+  * **Outputs:** A detailed, step-by-step log of the non-restoring division process, along with the final quotient and remainder.
+  * **Example Output:** A console screenshot illustrating the non-restoring division algorithm, highlighting the different operations (subtraction or addition) based on the sign of the accumulator.
 
-Outputs: Step-by-step non-restoring division process, Quotient, Remainder
+-----
 
-📸 Example:![Non-Restoring Division Output](./Output/NonRestoringDivision_output.jpeg)
+## ✅ Sample Results
 
+Here are some sample results from running the programs with specific inputs:
 
-✅ Sample Results
-
-13 ÷ 3 (Non-Restoring Division) → Quotient = 4, Remainder = 1
-
-73 ÷ 4 (Restoring Division) → Quotient = 18, Remainder = 1
-
-12 × 2 (Sequential Multiplication) → Product = 24
+  * **Non-Restoring Division:** `13 ÷ 3` results in a Quotient of `4` and a Remainder of `1`.
+  * **Restoring Division:** `73 ÷ 4` results in a Quotient of `18` and a Remainder of `1`.
+  * **Sequential Multiplication:** `12 × 2` results in a Product of `24`.
